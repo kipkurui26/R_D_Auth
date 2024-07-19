@@ -1,0 +1,101 @@
+.navigation{
+    width: 100%;
+    background: #f4f4f4;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 3%;
+}
+.logo{
+    font-size: 1.6em;
+    font-weight: 800;
+    font-family: "Playwrite HR", cursive;
+    color: #083344;
+    text-decoration: none;
+}
+.logo:hover{
+    color: #083344;
+    text-decoration: underline;
+}
+.nav-links{
+    display: flex;
+    gap: 20px;
+    list-style: none;    
+}
+.nav-link{
+    text-decoration: none;
+    color: #333;    
+    transition: all 0.3s ease;
+}
+.nav-link:hover{
+    color: #000;
+}
+.auth-user{
+    position: relative;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    padding: 3px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+.auth-user:hover{
+    cursor: pointer;
+    background: #cbd5e1;
+}
+.auth__profile{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+
+}
+.user-profile{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    object-fit: cover;
+    background: #94a3b8;
+    color: #172554;
+}
+.signin{
+    background: #172554;
+    color: #fff;
+    padding: 3px 10px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+.signin:hover{
+    background: #083344;
+}
+.menu{
+    position: absolute;
+    padding: 8px;
+    top: 50px;
+    right: -10px;
+    background: #f4f4f4;
+    width: 150px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.menu__list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.menu__list--link{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    text-decoration: none;
+    color: #333;
+    transition: all 0.3s ease;
+}
+.menu__list--link:hover{
+    color: #000;
+}
